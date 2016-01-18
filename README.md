@@ -48,7 +48,7 @@ whereas
 
 returns
 
-    Fri Jun 01 2016 00:00:00 GMT+0200 (CEST).
+    Wed Jun 01 2016 00:00:00 GMT+0200 (CEST).
 
 Additionally, there are two meta conditions, which can be used to match other
 conditions:
