@@ -1,10 +1,10 @@
 {
   "name": "cronpp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a way to calculate times based on rules",
   "main": "cronpp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "/usr/bin/env node test.js"
   },
   "keywords": [
     "time",
@@ -15,5 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "binary-search-bounds": "*"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/niklasfi/cronpp.git"
   }
 }
