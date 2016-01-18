@@ -55,7 +55,7 @@ conditions:
 
 - `allof(condition1, condition2, ...)` results in a time which matches all
   conditions passed as arguments.
-- `minof(condition1, condition2, ...)` gives earliest time satisfying any one of
+- `minof(condition1, condition2, ...)` gives the earliest time satisfying any one of
   the passed conditions.
 
 Finally, cronpp contains two utility functions which can be used to schedule
