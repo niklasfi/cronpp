@@ -2,7 +2,7 @@
   "name": "cronpp",
   "version": "0.1.1",
   "description": "a way to calculate times based on rules",
-  "main": "time.js",
+  "main": "cronpp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
