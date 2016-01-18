@@ -31,21 +31,22 @@ Therefore `dow('sun')` and `dow(['sun', 'mon'])` are both syntactically correct.
 
 All conditions accept a second parameter `strict`, which determines, wether the
 input time is a suitable result.
-   
+
 
      month(['apr', 'jun'])(new Date(2016, 3, 18))
      //note 'apr' == 3
 
-returns 
+returns
 
     Fri Apr 01 2016 00:00:00 GMT+0200 (CEST),
 
 whereas
-  
+
 
     month(['apr', 'jun'])(new Date(2016, 3, 18), true)
     //note second argument
-returns 
+
+returns
 
     Fri Jun 01 2016 00:00:00 GMT+0200 (CEST).
 
